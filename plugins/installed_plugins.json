@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "plugins": {
+    "code-documentation@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/code-documentation/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    },
+    "debugging-toolkit@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/debugging-toolkit/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    },
+    "agent-orchestration@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/agent-orchestration/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    },
+    "code-review-ai@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/code-review-ai/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    },
+    "llm-application-dev@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/llm-application-dev/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    },
+    "context-management@claude-code-workflows": {
+      "version": "unknown",
+      "installedAt": "2025-11-08T03:50:10.194Z",
+      "lastUpdated": "2025-11-08T03:50:10.194Z",
+      "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/context-management/unknown",
+      "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
+      "isLocal": true
+    }
+  }
+}

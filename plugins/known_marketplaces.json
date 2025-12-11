@@ -1,0 +1,10 @@
+{
+  "claude-code-workflows": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/wshobson/agents.git"
+    },
+    "installLocation": "/home/irfan/.claude/plugins/marketplaces/claude-code-workflows",
+    "lastUpdated": "2025-12-11T22:37:39.697Z"
+  }
+}

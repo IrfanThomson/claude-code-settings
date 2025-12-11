@@ -1,0 +1,33 @@
+# Sensitive data
+*.key
+*.pem
+*credentials*
+*secrets*
+*.env
+
+# Session data
+history.jsonl
+debug/
+file-history/
+plans/
+session-env/
+shell-snapshots/
+todos/
+telemetry/
+statsig/
+
+# Cache and temporary files
+*.log
+*.tmp
+cache/
+marketplaces/
+repos/
+
+# Project-specific (not global settings)
+projects/
+
+# Plugin binaries and downloaded repos
+plugins/cache/
+plugins/marketplaces/
+plugins/repos/
+plugins/installed_plugins_v2.json

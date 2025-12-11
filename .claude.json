@@ -1,0 +1,298 @@
+{
+  "numStartups": 163,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "hasSeenTasksHint": true,
+  "tipsHistory": {
+    "new-user-warmup": 7,
+    "memory-command": 151,
+    "theme-command": 151,
+    "status-line": 159,
+    "prompt-queue": 62,
+    "enter-to-steer-in-relatime": 155,
+    "todo-list": 155,
+    "ide-upsell-external-terminal": 160,
+    "# for memory": 162,
+    "install-github-app": 162,
+    "drag-and-drop-images": 156,
+    "double-esc": 14,
+    "continue": 161,
+    "shift-tab": 162,
+    "image-paste": 156,
+    "plan-mode-for-complex-tasks": 162,
+    "terminal-setup": 162,
+    "custom-agents": 159,
+    "permissions": 162,
+    "custom-commands": 158,
+    "double-esc-code-restore": 161,
+    "tab-toggle-thinking": 162,
+    "ultrathink-keyword": "REDACTED",
+    "stickers-command": 152,
+    "git-worktrees": 156,
+    "frontend-design-plugin": 159,
+    "rename-conversation": 163
+  },
+  "promptQueueUseCount": 40,
+  "cachedStatsigGates": {
+    "tengu_disable_bypass_permissions_mode": false,
+    "tengu_use_file_checkpoints": false,
+    "tengu_tool_pear": false,
+    "tengu_glob_with_rg": false,
+    "tengu_web_tasks": true,
+    "tengu_log_1p_events": true,
+    "tengu_enable_versioned_plugins": false,
+    "tengu_backstage_only": false,
+    "code_slack_app_install_banner": false,
+    "tengu_sumi": false,
+    "tengu_react_vulnerability_warning": false
+  },
+  "cachedDynamicConfigs": {
+    "tengu_1p_event_batch_config": {
+      "scheduledDelayMillis": 5000,
+      "maxExportBatchSize": 200,
+      "maxQueueSize": 8192
+    },
+    "tengu-top-of-feed-tip": {
+      "tip": "",
+      "color": ""
+    }
+  },
+  "firstStartTime": "2025-09-07T17:00:32.104Z",
+  "userID": "REDACTED",
+  "projects": {
+    "/home/irfan": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {
+        "docker-mcp-gateway": {
+          "type": "sse",
+          "url": "http://localhost:8081/sse"
+        },
+        "obsidian-file-based": {
+          "type": "stdio",
+          "command": "uvx",
+          "args": [
+            "obsidian-mcp"
+          ],
+          "env": {
+            "OBSIDIAN_VAULT_PATH": "/home/irfan/Documents/Obsidian/Literally Just a Vault (Copy)"
+          }
+        },
+        "mcp-atlassian": {
+          "type": "stdio",
+          "command": "docker",
+          "args": [
+            "run",
+            "--rm",
+            "-i",
+            "ghcr.io/sooperset/mcp-atlassian:latest"
+          ],
+          "env": {
+            "JIRA_URL": "https://musaaidai.atlassian.net",
+            "JIRA_USERNAME": "user@example.com",
+            "JIRA_API_TOKEN": "REDACTED",
+            "CONFLUENCE_URL": "https://musaaidai.atlassian.net/wiki",
+            "CONFLUENCE_USERNAME": "user@example.com",
+            "CONFLUENCE_API_TOKEN": "REDACTED"
+          }
+        },
+        "jules": {
+          "type": "stdio",
+          "command": "node",
+          "args": [
+            "/home/irfan/.local/lib/mcp-servers/node_modules/.bin/jules-mcp"
+          ],
+          "env": {
+            "JULES_API_KEY": "REDACTED"
+          }
+        }
+      },
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "general.conf",
+        "user_options.jsonc",
+        ".claude.json",
+        "tax-calculator-showcase.html",
+        "apiwidgets.js"
+      ],
+      "exampleFilesGeneratedAt": 1765078365413,
+      "lastTotalWebSearchRequests": 0,
+      "hasCompletedProjectOnboarding": true,
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastCost": 0,
+      "lastAPIDuration": 0,
+      "lastAPIDurationWithoutRetries": 0,
+      "lastToolDuration": 0,
+      "lastDuration": 16206,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": "REDACTED",
+      "lastTotalOutputTokens": "REDACTED",
+      "lastTotalCacheCreationInputTokens": "REDACTED",
+      "lastTotalCacheReadInputTokens": "REDACTED",
+      "lastModelUsage": {},
+      "lastSessionId": "uuid-redacted"
+    },
+    "/home/irfan/systemprompt-code-orchestrator": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    },
+    "/home/irfan/gitrepos/mas-matrimony-connect": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "ignorePatterns": [],
+      "projectOnboardingSeenCount": 4,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "Step5Preferences.tsx",
+        "ProfileCreation.tsx",
+        "weightedCompatibility.ts",
+        "SmartMatcher.tsx",
+        "ProfileDetailModal.tsx"
+      ],
+      "exampleFilesGeneratedAt": 1764820150781,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 0.9957970500000001,
+      "lastAPIDuration": 349912,
+      "lastToolDuration": 94442,
+      "lastDuration": 225903419,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": "REDACTED",
+      "lastTotalOutputTokens": "REDACTED",
+      "lastTotalCacheCreationInputTokens": "REDACTED",
+      "lastTotalCacheReadInputTokens": "REDACTED",
+      "lastSessionId": "uuid-redacted"
+    },
+    "/home/irfan/thechopnation-social-media-strategy": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "exampleFiles": [
+        "I don't have any files to analyze from the provided input. Both the \"Files modified by user\" and \"Files modified by other users\" sections are empty.",
+        "",
+        "Please provide a list of files with their modification counts in a format like:",
+        "",
+        "```",
+        "path/to/file.js (15)",
+        "path/to/another.py (8)",
+        "```",
+        "",
+        "Once you provide the file list, I'll return exactly five diverse filenames that represent core application logic."
+      ],
+      "exampleFilesGeneratedAt": 1765239691653,
+      "lastTotalWebSearchRequests": 0,
+      "lastCost": 0.017107999999999998,
+      "lastAPIDuration": 13422,
+      "lastToolDuration": 0,
+      "lastDuration": 134719,
+      "lastLinesAdded": 0,
+      "lastLinesRemoved": 0,
+      "lastTotalInputTokens": "REDACTED",
+      "lastTotalOutputTokens": "REDACTED",
+      "lastTotalCacheCreationInputTokens": "REDACTED",
+      "lastTotalCacheReadInputTokens": "REDACTED",
+      "lastSessionId": "uuid-redacted",
+      "reactVulnerabilityCache": {
+        "detected": false,
+        "package": null,
+        "packageName": null,
+        "version": null,
+        "packageManager": null
+      },
+      "lastAPIDurationWithoutRetries": 13419,
+      "lastModelUsage": {
+        "claude-haiku-4-5-20251001": {
+          "inputTokens": "REDACTED",
+          "outputTokens": "REDACTED",
+          "cacheReadInputTokens": "REDACTED",
+          "cacheCreationInputTokens": "REDACTED",
+          "webSearchRequests": 0,
+          "costUSD": 0.003659
+        },
+        "claude-sonnet-4-5-20250929": {
+          "inputTokens": "REDACTED",
+          "outputTokens": "REDACTED",
+          "cacheReadInputTokens": "REDACTED",
+          "cacheCreationInputTokens": "REDACTED",
+          "webSearchRequests": 0,
+          "costUSD": 0.013449
+        }
+      }
+    }
+  },
+  "oauthAccount": "REDACTED",
+  "claudeCodeFirstTokenDate": "REDACTED",
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.108",
+  "hasOpusPlanDefault": false,
+  "subscriptionNoticeCount": 0,
+  "hasAvailableSubscription": false,
+  "fallbackAvailableWarningThreshold": 0.5,
+  "s1mAccessCache": {
+    "cc6a47ce-3bdf-4db9-a2ba-5bccae664468": {
+      "hasAccess": false,
+      "hasAccessNotAsDefault": false,
+      "timestamp": 1765492660076
+    }
+  },
+  "isQualifiedForDataSharing": false,
+  "bypassPermissionsModeAccepted": true,
+  "cachedChangelog": "REDACTED",
+  "changelogLastFetched": 1765464286671,
+  "lastReleaseNotesSeen": "2.0.65",
+  "sonnet45MigrationComplete": true,
+  "feedbackSurveyState": {
+    "lastShownTime": 1763056637967
+  },
+  "githubRepoPaths": {
+    "irfanthomson/archsetup": [
+      "/home/irfan/gitrepos/mas-matrimony-connect",
+      "/home/irfan",
+      "/home/irfan/gitrepos/sconix-ai/every-org-donation-integration",
+      "/home/irfan/gitrepos/sconix-ai"
+    ],
+    "irfanthomson/mas-matrimony-connect": [
+      "/home/irfan/gitrepos/mas-matrimony-connect"
+    ],
+    "irfanthomson/donorlens-demo": [
+      "/home/irfan/gitrepos/sconix-ai/demo-pitch"
+    ]
+  },
+  "opus45MigrationComplete": true,
+  "hasShownOpus45Notice": {
+    "cc6a47ce-3bdf-4db9-a2ba-5bccae664468": true
+  },
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": false,
+  "officialMarketplaceAutoInstallFailReason": "unknown"
+}

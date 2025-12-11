@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "obsidian": {
+      "command": "node",
+      "args": ["/app/build/index.js"],
+      "env": {
+        "OBSIDIAN_REST_API_KEY": "3ee1f2412edc7e6ab4d164fbd306e71866dfd9066c85fe0cbb884dc82eb841ff",
+        "OBSIDIAN_URL": "https://127.0.0.1:27124"
+      }
+    }
+  }
+}

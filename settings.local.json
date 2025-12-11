@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(docker plugin install:*)",
+      "Bash(sudo systemctl start:*)",
+      "Bash(docker:*)",
+      "Bash(sudo usermod:*)",
+      "Bash(sudo -S docker:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
