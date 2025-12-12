@@ -2,8 +2,13 @@
 *.key
 *.pem
 *credentials*
-*secrets*
 *.env
+secrets.env
+secrets.env.dec
+
+# Encrypted secrets (keep this safe elsewhere!)
+# Uncomment if you want to store encrypted secrets in repo:
+# !secrets.env.enc
 
 # Session data
 history.jsonl
@@ -22,6 +27,10 @@ statsig/
 cache/
 marketplaces/
 repos/
+
+# Backups
+*.backup
+*.backup.*
 
 # Project-specific (not global settings)
 projects/
