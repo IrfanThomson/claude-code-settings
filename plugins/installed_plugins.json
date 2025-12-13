@@ -48,6 +48,14 @@
       "installPath": "/home/irfan/.claude/plugins/cache/claude-code-workflows/context-management/unknown",
       "gitCommitSha": "9b64821cc9a1aed4044e617bcee26190f90045c2",
       "isLocal": true
+    },
+    "dev-browser@sawyerhood": {
+      "version": "1.0.1",
+      "installedAt": "2025-12-12T15:00:00.000Z",
+      "lastUpdated": "2025-12-12T15:00:00.000Z",
+      "installPath": "/home/irfan/.claude/plugins/marketplaces/sawyerhood",
+      "gitCommitSha": "45c3e37c9bdd3e806c9fc3b1d0d99108bd2161d7",
+      "isLocal": true
     }
   }
 }

@@ -6,5 +6,13 @@
     },
     "installLocation": "/home/irfan/.claude/plugins/marketplaces/claude-code-workflows",
     "lastUpdated": "2025-12-11T22:37:39.697Z"
+  },
+  "sawyerhood": {
+    "source": {
+      "source": "git",
+      "url": "https://github.com/SawyerHood/dev-browser.git"
+    },
+    "installLocation": "/home/irfan/.claude/plugins/marketplaces/sawyerhood",
+    "lastUpdated": "2025-12-12T15:00:00.000Z"
   }
 }
